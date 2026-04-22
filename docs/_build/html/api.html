@@ -98,42 +98,11 @@
 <dt class="sig sig-object py" id="montecarlo.MonteCarlo">
 <em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">montecarlo.</span></span><span class="sig-name descname"><span class="pre">MonteCarlo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ham</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#montecarlo.MonteCarlo" title="Link to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<p>Metropolis Monte Carlo sampler for an IsingHamiltonian.</p>
-<section id="parameters">
-<h2>Parameters<a class="headerlink" href="#parameters" title="Link to this heading">¶</a></h2>
-<dl class="simple">
-<dt>ham<span class="classifier">IsingHamiltonian</span></dt><dd><p>The Ising Hamiltonian that defines the energy landscape.</p>
-</dd>
-</dl>
 <dl class="py method">
 <dt class="sig sig-object py" id="montecarlo.MonteCarlo.run">
 <span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">T</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_samples</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_burn</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">100</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#montecarlo.MonteCarlo.run" title="Link to this definition">¶</a></dt>
-<dd><p>Run the Metropolis algorithm and return sampled energies and magnetizations.</p>
-<section id="id1">
-<h3>Parameters<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
-<p>T        : float  – temperature (in natural units where k_B = 1)
-n_samples: int    – number of MC sweeps to <em>record</em> after burn-in
-n_burn   : int    – number of MC sweeps to discard as burn-in</p>
-</section>
-<section id="returns">
-<h3>Returns<a class="headerlink" href="#returns" title="Link to this heading">¶</a></h3>
-<p>E_samples : list[float]  – energy at each recorded sweep
-M_samples : list[float]  – magnetization at each recorded sweep</p>
-</section>
-<section id="algorithm">
-<h3>Algorithm<a class="headerlink" href="#algorithm" title="Link to this heading">¶</a></h3>
-<p>Each “sweep” consists of one attempted spin-flip per site (N flips).
-For a proposed flip at site i:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Compute ΔE = E(β) − E(α).</p></li>
-<li><p>Accept with probability min(1, exp(−ΔE / T)).</p></li>
-</ul>
-</div></blockquote>
-</section>
-</dd></dl>
+<dd></dd></dl>
 
-</section>
 </dd></dl>
 
 </section>
