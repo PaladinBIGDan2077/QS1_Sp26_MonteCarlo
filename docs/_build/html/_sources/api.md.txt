@@ -1,7 +1,5 @@
 # API Reference
 
-::: montecarlo
-
 ```{eval-rst}
 .. automodule:: montecarlo
 	:members:
