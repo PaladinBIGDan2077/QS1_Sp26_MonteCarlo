@@ -14,15 +14,11 @@ A Monte Carlo simulation package for Ising models.
 
 ## Documentation
 
-Documentation is built with [Zensical](https://zensical.org/) and deployed to GitHub Pages.
+Documentation is built with Sphinx and deployed to ReadTheDocs.
 
 * **Live site:** [https://PaladinBIGDan2077.github.io/montecarlo/](https://monte-carlo-danieljlomis.readthedocs.io/en/latest/)
-* **Preview locally:** `just docs-serve` (serves at http://localhost:8000)
-* **Build:** `just docs-build`
 
-API documentation is auto-generated from docstrings using [mkdocstrings](https://mkdocstrings.github.io/).
-
-Docs deploy automatically on push to `main` via GitHub Actions. To enable this, go to your repo's Settings > Pages and set the source to **GitHub Actions**.
+Docs deploy automatically on push to `main` via GitHub Actions.
 
 ## Development
 
