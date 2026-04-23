@@ -22,25 +22,19 @@ from the top-level montecarlo/ directory.
 
 ## From source
 
-The source files for montecarlo can be downloaded from the [Github repo](https://github.com/PaladinBIGDan2077/montecarlo).
+The source files for montecarlo can be downloaded from the [Github repo](https://github.com/PaladinBIGDan2077/QS1_Sp26_MonteCarlo).
 
 Note: Python 3.11 or newer is required, along with NumPy and Matplotlib!
 
 You can either clone the public repository:
 
 ```sh
-git clone https://github.com/PaladinBIGDan2077/montecarlo
-```
-
-Or download the [tarball](https://github.com/PaladinBIGDan2077/montecarlo/tarball/main):
-
-```sh
-curl -OJL https://github.com/PaladinBIGDan2077/montecarlo/tarball/main
+git clone https://github.com/PaladinBIGDan2077/QS1_Sp26_MonteCarlo.git
 ```
 
 Once you have a copy of the source, you can install it with:
 
 ```sh
-cd montecarlo
-uv sync
+cd QS1_Sp26_MonteCarlo
+pip install -e .
 ```
