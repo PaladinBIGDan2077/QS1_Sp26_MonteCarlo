@@ -16,7 +16,7 @@ A Monte Carlo simulation package for Ising models.
 
 Documentation is built with Sphinx and deployed to ReadTheDocs.
 
-* **Live site:** [https://PaladinBIGDan2077.github.io/montecarlo/](https://monte-carlo-danieljlomis.readthedocs.io/en/latest/)
+* **Live site:** [https://monte-carlo-danieljlomis.readthedocs.io](https://monte-carlo-danieljlomis.readthedocs.io/en/latest/)
 
 Docs deploy automatically on push to `main` via GitHub Actions.
 
