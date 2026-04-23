@@ -28,23 +28,6 @@ To set up for local development:
 # Clone your fork
 git clone git@github.com:your_username/QS1_Sp26_MonteCarlo.git
 cd montecarlo
-
-# Install in editable mode with live updates
-uv tool install --editable .
-```
-
-This installs the CLI globally but with live updates — any changes you make to the source code are immediately available when you run `montecarlo`.
-
-Run tests:
-
-```bash
-uv run pytest
-```
-
-Run quality checks (format, lint, type check, test):
-
-```bash
-just qa
 ```
 
 ## Author
